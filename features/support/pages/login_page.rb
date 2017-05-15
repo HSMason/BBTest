@@ -3,7 +3,7 @@ class LoginPage
   include Capybara::DSL
   
   def email_input
-    find(id: 'login_email')
+    find_field(id: 'login_email')
   end
   
   def pw_input
