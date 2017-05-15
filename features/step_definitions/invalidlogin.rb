@@ -3,9 +3,9 @@ Given(/^I am on Login page$/) do
 end
 
 When(/^I submit an invalid email address$/) do
-  LoginPage.new.login_as()
+  LoginPage.new
 end
 
 Then(/^I should see a validation error message$/) do
-  find('div').text.include?('Invalid email or password')
+  find(:xpath, '//*[@id="container"]/div[1]').text.include?('Invalid email or password')
 end
