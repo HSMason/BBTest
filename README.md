@@ -22,8 +22,6 @@ cd BBTest
 bundle install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
 ```
@@ -34,7 +32,7 @@ bundle exec cucumber
 
 * [Ruby](https://github.com/ruby/ruby)
 * [Cucumber](https://github.com/cucumber/cucumber)
-* [Capybara](hhttps://github.com/teamcapybara/capybara) 
+* [Capybara](https://github.com/teamcapybara/capybara) 
 
 
 ## Authors
