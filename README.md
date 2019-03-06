@@ -13,7 +13,7 @@ POC Framework for BookingBug using Cucumber/Capybara
 ### Installing
 
 ```
-git clone hhttps://github.com/HSMason/BBTest.git
+git clone hhttps://github.com/felixmmason/BBTest.git
 ```
 ```
 cd BBTest
